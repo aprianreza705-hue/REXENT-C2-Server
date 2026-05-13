@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_devices"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Devices" />
+    <item
+        android:id="@+id/nav_command"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Command" />
+    <item
+        android:id="@+id/nav_files"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:title="Files" />
+    <item
+        android:id="@+id/nav_stream"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Stream" />
+</menu>
