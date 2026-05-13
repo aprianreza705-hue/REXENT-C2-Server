@@ -3,6 +3,7 @@ package com.enterprise.c2server;
 import android.graphics.Color;
 import android.view.View;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class DeviceViewHolder extends RecyclerView.ViewHolder {

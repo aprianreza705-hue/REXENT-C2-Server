@@ -1,5 +1,9 @@
 package com.enterprise.c2server;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class Device {
     public String session_id;
     public String model;
