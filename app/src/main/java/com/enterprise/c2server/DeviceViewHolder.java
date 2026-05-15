@@ -20,11 +20,11 @@ public class DeviceViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void bind(Device device) {
-        sessionId.setText(device.session_id);
-        model.setText(device.model);
-        androidVer.setText(device.android);
+        sessionId.setText(device.session_id != null ? device.session_id : "UNKNOWN");
+        model.setText(device.model != null ? device.model : "Unknown Device");
+        androidVer.setText(device.android != null ? device.android : "-");
         battery.setText(device.battery + "%");
-        ip.setText(device.ip);
+        ip.setText(device.ip != null ? device.ip : "0.0.0.0");
 
         boolean online = (System.currentTimeMillis() - device.last_seen) < 120000;
         if (online) {
